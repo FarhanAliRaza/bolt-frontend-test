@@ -64,7 +64,7 @@ export default function Home() {
 
       <div className="w-full">
         <h2 className="text-xl font-semibold mb-2">Response:</h2>
-        <pre className="bg-gray-100 p-4 rounded overflow-x-auto text-sm">
+        <pre className="bg-gray-100 p-4 rounded overflow-x-auto text-sm text-gray-900">
           {response || "No response yet. Click a button to test the API."}
         </pre>
       </div>
